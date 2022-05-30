@@ -88,6 +88,10 @@ header{
 
 /*Practise segment*/
 
+#practise-segment{
+    display: flex;
+}
+
 .left{
     width: 60%;
 }
@@ -103,5 +107,67 @@ header{
 .little-opacity{
     opacity: 0.75;
     margin-bottom: 32px;
+}
+
+
+#practise-segment .right{
+  display: flex;
+  width: 40%;
+}
+
+.first-block-right{
+    margin-top: 26px;
+    display: flex;
+    border-style: solid;
+    border-color: white;
+    border-bottom-color: rgb(234, 230, 230);
+    border-width: 5px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.img-segment{
+    width: 35%;  
+}
+
+.text-segment{
+    width: 65%;
+    text-align: left;
+    margin: auto;
+    margin-left: 75px;
+    font-size: 20px;
+    
+}
+
+.text-segment #read{
+    color: rgb(0, 166, 255);
+}
+
+.second-block-right{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.third-block-right{
+    padding: 16px;
+    display: flex;
+    background-color: rgb(212, 209, 209);
+    width: 100%;
+    margin-left: -16px;
+}
+
+
+.third-block-right .text-segment{
+    max-width: 300px;
+    margin-left: 55px !important;
+}
+
+.text-segment h4,p{
+    margin-bottom: 8px;
+}
+
+.text-segment h4{
+    font-size: 30px;
 }
 
